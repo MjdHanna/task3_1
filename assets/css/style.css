@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0PX;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2c3e50;
+    position: fixed;
+    padding: 30px;
+}
+h1{
+    color: white;
+    padding-left: 70px;
+}
+h2{
+    color: white;
+    padding: 55px;
+}
+p{
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+/* li{
+    margin: 30px;
+} */
+ul li a{
+    font-size: 20px;
+    text-decoration:  none;
+}
+strong{
+    color: white;
+}
+.Hero{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:700px;
+    background-color: #1abc9c;
+}
+.picpic{
+    width: 180px;
+    height: 180px;
+    background-color: #101b26;
+    border-radius: 50%;
+    position: relative;
+    top: 40%;
+}
+.me{
+    border-radius: 20%;
+    position:absolute;
+    bottom: 25%;
+    left: 10%;
+}
+
+.star::before{
+    content:' ';
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    position:absolute;
+    right: 650px;
+}
+.star::after{
+    content:' ';
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 650px;
+} 
+b{
+    color:#101b26;
+}
+#Portfolio{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.P1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 17px;
+}
+.star2::before{
+    content:' ';
+    height: 2px;
+    width: 100px;
+    background-color:#101b26;
+    position:absolute;
+    right: 650px;
+}
+.star2::after{
+    content:' ';
+    height: 2px;
+    width: 100px;
+    background-color:#101b26;
+    position:absolute;
+    left: 650px;
+}
+.boy1{
+    background-color: #ba4c63;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boy2{
+    background-color: #276cb0;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boy3{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boy4{
+    background-color: #1037b5;
+    height:  200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boy5{
+    background-color: #1037b5;
+    width:  200px;
+    height:  200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boy6{
+    background-color: #ccb2a3;
+    width:  200px;
+    height:  200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#About{
+    background-color: #1abc9c;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.star3::before{
+    content:' ';
+    height: 2px;
+    width: 100px;
+    background-color:white;
+    position:absolute;
+    right: 650px;
+}
+.star3::after{
+    content:' ';
+    height: 2px;
+    width: 100px;
+    background-color:white;
+    position:absolute;
+    left:650px;
+}
+button{
+    outline: 2px solid yellow;
+    background-color: red;
+    margin: 0 auto;
+}
+#Contact{
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.star4::before{
+    content:' ';
+    height: 2px;
+    width: 100px;
+    background-color:#101b26;
+    position:absolute;
+    right: 650px;
+}
+.star4::after{
+    content:' ';
+    height: 2px;
+    width: 100px;
+    background-color:#101b26;
+    position:absolute;
+    left: 650px;
+}
+footer{
+    background-color: #101b26;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+}
+
+.aroundtheweb{
+    position: relative;
+}
+.sum{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    position: absolute;
+}
+.finally{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: white;
+}
+@media screen and(max-width:992px) {
+    nav{
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+}
